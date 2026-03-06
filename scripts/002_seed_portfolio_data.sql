@@ -42,7 +42,7 @@ INSERT INTO education (degree, institution, location, start_date, end_date, is_c
   false,
   null,
   'Focus on IT skills and professional English communication.',
-  ARRAY[]
+  ARRAY[]::TEXT[]
 );
 
 -- Insert sample skills data
